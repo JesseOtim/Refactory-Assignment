@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/fotis-fotopoulos-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 109vh;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: brown;
+    color: black;
+    height: 90px;
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px 40px;
+    cursor: context-menu;
+    transition: 0.5s ease;
+}
+
+.header-logo:hover{
+    color: purple;
+}
+
+.header-list li {
+    float: right;
+    font-weight: bold;
+    padding: 33px 20px;
+}
+
+.main {
+    padding: 100px 80px;
+}
+
+.copy-container h1 {
+    font-size: 140px;
+    color: gray;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+    color: orangered;
+}
+
+span {
+    color: orangered;
+
+}
+
+.contents {
+    width: auto;
+    height: 500px;
+    margin-top: 10px;
+}
+
+.section-title1{
+    font-size: 28px;
+    color: olive;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.contents-item {
+    float: left;
+    margin-right: 50px;
+    margin-left: 40px;
+}
+
+.contents-item a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: orangered;
+    margin-top: 30px;
+}
+
+.contact-form {
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.section-title {
+    font-size: 28px;
+    color: olive;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.contact-form p{
+    color: olive;
+    font-weight: 50px;
+}
+
+.message{
+    padding-top: 10px;
+}
+
+input, textarea {
+    width: 300px;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid brown;
+    overflow: hidden;
+}
+
+
+.contact-submit {
+    background-color: olive;
+    width: 250px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.contact-submit:hover{
+    background-color: white;
+}
+
+
+.footer {
+    background-color: brown;
+    color: white;
+    height: 80px;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    cursor: context-menu;
+    transition: 0.5s ease;
+}
+
+.footer-logo:hover{
+    color:purple;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
